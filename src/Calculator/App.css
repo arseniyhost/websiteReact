@@ -1,0 +1,56 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgb(83, 124, 236);
+}
+
+ul li {
+  list-style: none;
+  margin-right: 40px;
+  font-size: 22px;
+}
+
+ul li:last-child {
+  margin-right: 0;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+}
+
+.tableContainer {
+  margin-top: 60px;
+}
+
+.form {
+  margin-top: 30px;
+}
+
+.form .btn-add {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 0;
+  background: rgb(77, 214, 59);
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+.tableContainer table td button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 0;
+  background: rgb(228, 58, 58);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.form label {
+  margin: 20px;
+}
+
+.form input {
+  padding: 10px;
+}
